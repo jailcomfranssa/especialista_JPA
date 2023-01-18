@@ -6,8 +6,11 @@
 </h4>
 
 
+<h1 align="center">
+  <img alt="JPA" title="JPA" src="https://labs.bluesoft.com.br/wp-content/uploads/2017/03/JPAHibernate.jpg" max-width: 50%; />
+</h1>
 
-### Hi 👋
+
 
 <h1 align="center">Especialista JPA</h1>
 
