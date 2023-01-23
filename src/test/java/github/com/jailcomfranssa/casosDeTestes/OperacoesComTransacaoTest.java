@@ -1,7 +1,7 @@
 package github.com.jailcomfranssa.casosDeTestes;
 
 import github.com.jailcomfranssa.EntityManagerTest;
-import github.com.jailcomfranssa.model.Produto;
+import github.com.jailcomfranssa.model.entities.Produto;
 import org.junit.Assert;
 import org.junit.Test;
 

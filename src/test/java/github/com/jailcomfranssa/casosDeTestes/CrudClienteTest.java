@@ -1,7 +1,7 @@
 package github.com.jailcomfranssa.casosDeTestes;
 
 import github.com.jailcomfranssa.EntityManagerTest;
-import github.com.jailcomfranssa.model.Cliente;
+import github.com.jailcomfranssa.model.entities.Cliente;
 import org.junit.Test;
 
 public class CrudClienteTest extends EntityManagerTest {

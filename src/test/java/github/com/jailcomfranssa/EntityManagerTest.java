@@ -1,6 +1,5 @@
 package github.com.jailcomfranssa;
 
-import github.com.jailcomfranssa.model.Produto;
 import org.junit.*;
 
 import javax.persistence.EntityManager;
