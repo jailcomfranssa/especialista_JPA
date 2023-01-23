@@ -29,6 +29,22 @@ public class OperacoesComTransacaoTest extends EntityManagerTest {
         Produto produtoVerificacao = entityManager.find(Produto.class, produto.getId());
         Assert.assertNotNull(produtoVerificacao);
     }
+
+    @Test
+    public void removerObjetos(){
+        Produto produto = entityManager.find(Produto.class,3);
+
+        entityManager.getTransaction().begin();
+
+        entityManager.remove(produto);
+
+        entityManager.getTransaction().commit();
+
+        Produto produtoVerificacao = entityManager.find(Produto.class,3);
+        Assert.assertNull(produtoVerificacao);
+
+    }
+
     @Test
     public void abrirEFecharATransacao(){
 //        Produto produto = new Produto();
