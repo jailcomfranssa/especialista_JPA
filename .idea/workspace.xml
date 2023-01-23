@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="removendo do banco">
+    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="usando o metodo merge para atualizar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/casosDeTestes/OperacoesComTransacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/casosDeTestes/OperacoesComTransacaoTest.java" afterDir="false" />
     </list>
@@ -89,7 +89,7 @@
       <recent name="github.com.jailcomfranssa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OperacoesComTransacaoTest.atualizarObjeto">
+  <component name="RunManager" selected="JUnit.OperacoesComTransacaoTest.atualizarObjetoGerenciado">
     <configuration name="ConsultandoRegistrosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-ecommerce" />
       <extension name="coverage">
@@ -105,22 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsultandoRegistrosTest.atualizarAReferencia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.com.jailcomfranssa.casosDeTestes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.casoDeTeste" />
-      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.casosDeTestes.ConsultandoRegistrosTest" />
-      <option name="METHOD_NAME" value="atualizarAReferencia" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OperacoesComTransacaoTest.atualizarObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-ecommerce" />
       <extension name="coverage">
@@ -132,6 +116,22 @@
       <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.casosDeTestes" />
       <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.casosDeTestes.OperacoesComTransacaoTest" />
       <option name="METHOD_NAME" value="atualizarObjeto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperacoesComTransacaoTest.atualizarObjetoGerenciado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.com.jailcomfranssa.casosDeTestes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.casosDeTestes" />
+      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.casosDeTestes.OperacoesComTransacaoTest" />
+      <option name="METHOD_NAME" value="atualizarObjetoGerenciado" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OperacoesComTransacaoTest.atualizarObjetoGerenciado" />
         <item itemvalue="JUnit.OperacoesComTransacaoTest.atualizarObjeto" />
         <item itemvalue="JUnit.OperacoesComTransacaoTest.removerObjetos" />
         <item itemvalue="JUnit.OperacoesComTransacaoTest.inserirOPrimeiroObjeto" />
         <item itemvalue="JUnit.ConsultandoRegistrosTest" />
-        <item itemvalue="JUnit.ConsultandoRegistrosTest.atualizarAReferencia" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674175152702</updated>
       <workItem from="1674175154009" duration="6215000" />
-      <workItem from="1674489070455" duration="6674000" />
+      <workItem from="1674489070455" duration="7294000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando projeto">
       <created>1674175268219</created>
@@ -274,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674497582752</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="usando o metodo merge para atualizar">
+      <created>1674498479560</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674498479560</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +299,7 @@
     <MESSAGE value="Abrindo e fechando uma transação" />
     <MESSAGE value="inserindo no banco" />
     <MESSAGE value="removendo do banco" />
-    <option name="LAST_COMMIT_MESSAGE" value="removendo do banco" />
+    <MESSAGE value="usando o metodo merge para atualizar" />
+    <option name="LAST_COMMIT_MESSAGE" value="usando o metodo merge para atualizar" />
   </component>
 </project>

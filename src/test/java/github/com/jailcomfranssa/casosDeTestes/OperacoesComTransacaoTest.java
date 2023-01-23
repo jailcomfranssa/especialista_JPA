@@ -51,6 +51,21 @@ public class OperacoesComTransacaoTest extends EntityManagerTest {
     }
 
     @Test
+    public void atualizarObjetoGerenciado(){
+        Produto produto = entityManager.find(Produto.class,1);
+
+        entityManager.getTransaction().begin();
+        produto.setNome("Kindle Paperwhite 2Gen.");
+        entityManager.getTransaction().commit();
+
+        entityManager.clear();
+
+        Produto produtoVerificacao = entityManager.find(Produto.class, produto.getId());
+        Assert.assertEquals("Kindle Paperwhite 2Gen.",produto.getNome());
+
+    }
+
+    @Test
     public void removerObjetos(){
         Produto produto = entityManager.find(Produto.class,3);
 
