@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="criando classe de teste">
+    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="criando classe generica para tete">
+      <change afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/casosDeTestes/OperacoesComTransacaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/ConsultandoRegistrosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/ConsultandoRegistrosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,12 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ConsultandoRegistrosTest.atualizarAReferencia">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="github.com.jailcomfranssa" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ConsultandoRegistrosTest">
     <configuration name="IniciarUnidadeDePersistencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.util.IniciarUnidadeDePersistencia" />
       <module name="jpa-ecommerce" />
@@ -98,16 +103,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConsultandoRegistrosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.com.jailcomfranssa.casosDeTestes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.casoDeTeste" />
+      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.casosDeTestes.ConsultandoRegistrosTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsultandoRegistrosTest.atualizarAReferencia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.com.jailcomfranssa.*" />
+          <option name="PATTERN" value="github.com.jailcomfranssa.casosDeTestes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa" />
-      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.ConsultandoRegistrosTest" />
+      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.casoDeTeste" />
+      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.casosDeTestes.ConsultandoRegistrosTest" />
       <option name="METHOD_NAME" value="atualizarAReferencia" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -118,12 +138,12 @@
       <module name="jpa-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.com.jailcomfranssa.*" />
+          <option name="PATTERN" value="github.com.jailcomfranssa.casosDeTestes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa" />
-      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.ConsultandoRegistrosTest" />
+      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.casoDeTeste" />
+      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.casosDeTestes.ConsultandoRegistrosTest" />
       <option name="METHOD_NAME" value="buscarPorIdentificador" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -132,6 +152,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConsultandoRegistrosTest" />
         <item itemvalue="JUnit.ConsultandoRegistrosTest.atualizarAReferencia" />
         <item itemvalue="JUnit.ConsultandoRegistrosTest.buscarPorIdentificador" />
         <item itemvalue="Application.IniciarUnidadeDePersistencia" />
@@ -147,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674175152702</updated>
       <workItem from="1674175154009" duration="6215000" />
-      <workItem from="1674489070455" duration="1416000" />
+      <workItem from="1674489070455" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando projeto">
       <created>1674175268219</created>
@@ -198,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674181445752</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="busca por identificador">
+      <created>1674490714384</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674490714384</updated>
+    </task>
+    <task id="LOCAL-00009" summary="criando classe generica para tete">
+      <created>1674491609494</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674491609494</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +246,8 @@
     <MESSAGE value="criando configurações do banco de dados Mysql" />
     <MESSAGE value="criando classe entityManager" />
     <MESSAGE value="criando classe de teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="criando classe de teste" />
+    <MESSAGE value="busca por identificador" />
+    <MESSAGE value="criando classe generica para tete" />
+    <option name="LAST_COMMIT_MESSAGE" value="criando classe generica para tete" />
   </component>
 </project>
