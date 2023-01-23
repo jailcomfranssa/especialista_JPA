@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="refatorando o projeto">
+    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="add anotações nas entidades">
+      <change afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/mapeamentobasico/MapeandoEnumeracoesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Estoque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/NotaFiscal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/PagamentoBoleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/PagamentoBoleto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/PagamentoCartao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,7 +97,7 @@
       <recent name="github.com.jailcomfranssa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CrudClienteTest.deletando">
+  <component name="RunManager" selected="JUnit.MapeandoEnumeracoesTest.testarEnum">
     <configuration name="CrudClienteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-ecommerce" />
       <extension name="coverage">
@@ -115,22 +109,6 @@
       <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.casosDeTestes" />
       <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.casosDeTestes.CrudClienteTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CrudClienteTest.atulizando" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.com.jailcomfranssa.casosDeTestes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.casosDeTestes" />
-      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.casosDeTestes.CrudClienteTest" />
-      <option name="METHOD_NAME" value="atulizando" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,13 +161,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MapeandoEnumeracoesTest.testarEnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.com.jailcomfranssa.mapeamentobasico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.mapeamentobasico" />
+      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.mapeamentobasico.MapeandoEnumeracoesTest" />
+      <option name="METHOD_NAME" value="testarEnum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MapeandoEnumeracoesTest.testarEnum" />
         <item itemvalue="JUnit.CrudClienteTest.deletando" />
         <item itemvalue="JUnit.CrudClienteTest.inserindo" />
         <item itemvalue="JUnit.CrudClienteTest" />
         <item itemvalue="JUnit.CrudClienteTest.consultando" />
-        <item itemvalue="JUnit.CrudClienteTest.atulizando" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +197,7 @@
       <updated>1674175152702</updated>
       <workItem from="1674175154009" duration="6215000" />
       <workItem from="1674489070455" duration="11674000" />
-      <workItem from="1674512480014" duration="3554000" />
+      <workItem from="1674512480014" duration="5331000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando projeto">
       <created>1674175268219</created>
@@ -359,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674514864699</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add anotações nas entidades">
+      <created>1674516485743</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1674516485743</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,6 +387,7 @@
     <MESSAGE value="criando enums" />
     <MESSAGE value="criando entidades" />
     <MESSAGE value="refatorando o projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="refatorando o projeto" />
+    <MESSAGE value="add anotações nas entidades" />
+    <option name="LAST_COMMIT_MESSAGE" value="add anotações nas entidades" />
   </component>
 </project>
