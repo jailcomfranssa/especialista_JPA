@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="inserindo no banco">
+    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="removendo do banco">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/casosDeTestes/OperacoesComTransacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/casosDeTestes/OperacoesComTransacaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,7 @@
       <recent name="github.com.jailcomfranssa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OperacoesComTransacaoTest.removerObjetos">
+  <component name="RunManager" selected="JUnit.OperacoesComTransacaoTest.atualizarObjeto">
     <configuration name="ConsultandoRegistrosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-ecommerce" />
       <extension name="coverage">
@@ -122,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsultandoRegistrosTest.buscarPorIdentificador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OperacoesComTransacaoTest.atualizarObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -130,9 +129,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.casoDeTeste" />
-      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.casosDeTestes.ConsultandoRegistrosTest" />
-      <option name="METHOD_NAME" value="buscarPorIdentificador" />
+      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.casosDeTestes" />
+      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.casosDeTestes.OperacoesComTransacaoTest" />
+      <option name="METHOD_NAME" value="atualizarObjeto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OperacoesComTransacaoTest.atualizarObjeto" />
         <item itemvalue="JUnit.OperacoesComTransacaoTest.removerObjetos" />
         <item itemvalue="JUnit.OperacoesComTransacaoTest.inserirOPrimeiroObjeto" />
         <item itemvalue="JUnit.ConsultandoRegistrosTest" />
         <item itemvalue="JUnit.ConsultandoRegistrosTest.atualizarAReferencia" />
-        <item itemvalue="JUnit.ConsultandoRegistrosTest.buscarPorIdentificador" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674175152702</updated>
       <workItem from="1674175154009" duration="6215000" />
-      <workItem from="1674489070455" duration="5733000" />
+      <workItem from="1674489070455" duration="6674000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando projeto">
       <created>1674175268219</created>
@@ -268,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674496526822</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="removendo do banco">
+      <created>1674497582752</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674497582752</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +291,7 @@
     <MESSAGE value="criando classe generica para tete" />
     <MESSAGE value="Abrindo e fechando uma transação" />
     <MESSAGE value="inserindo no banco" />
-    <option name="LAST_COMMIT_MESSAGE" value="inserindo no banco" />
+    <MESSAGE value="removendo do banco" />
+    <option name="LAST_COMMIT_MESSAGE" value="removendo do banco" />
   </component>
 </project>
