@@ -1,5 +1,6 @@
 package github.com.jailcomfranssa.model.entities;
 
+import github.com.jailcomfranssa.model.EnderecoEntregaPedido;
 import github.com.jailcomfranssa.model.enums.StatusPedido;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -32,4 +33,7 @@ public class Pedido {
 
     @Enumerated(EnumType.STRING)
     private StatusPedido status;
+
+    @Embedded
+    private EnderecoEntregaPedido enderecoEntregaPedido;
 }
