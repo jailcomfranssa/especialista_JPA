@@ -22,7 +22,7 @@ public class NotaFiscal {
     @Column(name = "data_emissao")
     private Date dataEmissao;
 
-    @OneToOne()
+    @OneToOne(optional = false)
     @JoinColumn(name = "pedido_id")
     private Pedido pedido;
 }

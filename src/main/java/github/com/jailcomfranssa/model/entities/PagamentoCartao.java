@@ -23,7 +23,7 @@ public class PagamentoCartao {
     private StatusPagamento status;
     private String numero;
 
-    @OneToOne
+    @OneToOne(optional = false)
     @JoinColumn(name = "pedido_id")
     private Pedido pedido;
 }
