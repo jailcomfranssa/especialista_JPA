@@ -9,7 +9,7 @@ public class CrudClienteTest extends EntityManagerTest {
     @Test
     public void inserindo(){
         Cliente cliente = new Cliente();
-        cliente.setId(3);
+       // cliente.setId(3);
         cliente.setNome("Jose Pinto");
 
         entityManager.getTransaction().begin();

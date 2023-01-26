@@ -14,7 +14,7 @@ public class OperacoesComTransacaoTest extends EntityManagerTest {
     public void inserirObjetoComMerge(){
         Produto produto = new Produto();
 
-        produto.setId(2);
+       // produto.setId(2);
         produto.setNome("Microfome AZ");
         produto.setDescricao("A melhor Qualidade Sonora");
         produto.setPreco(new BigDecimal(1000));
@@ -32,7 +32,7 @@ public class OperacoesComTransacaoTest extends EntityManagerTest {
     public void inserirOPrimeiroObjeto(){
         Produto produto = new Produto();
 
-        produto.setId(2);
+       // produto.setId(2);
         produto.setNome("Câmera Canon");
         produto.setDescricao("A melhor definição para foto");
         produto.setPreco(new BigDecimal(5000));
