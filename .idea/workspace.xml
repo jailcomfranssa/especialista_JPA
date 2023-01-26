@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="criando estrategia de geração de chave primaria nas entidades">
-      <change afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/relacionamentos/AutoRelacionamentoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/relacionamentos/RelacionamentoManyToOneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/relacionamentos/RelacionamentoOneToManyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/relacionamentos/RemovendoEntidadesReferenciadasTest.java" afterDir="false" />
+    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="Mapeamento de relacionamentos">
+      <change afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/relacionamentos/RelacionamentoManyToManyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/casosDeTestes/CrudClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/casosDeTestes/CrudClienteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/casosDeTestes/OperacoesComTransacaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/casosDeTestes/OperacoesComTransacaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/mapeamentobasico/MapeamentoObjetoEmbutidoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/mapeamentobasico/MapeamentoObjetoEmbutidoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/mapeamentobasico/MapeandoEnumeracoesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/mapeamentobasico/MapeandoEnumeracoesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/cart" />
+        <entry key="$PROJECT_DIR$" value="feature/iniciandoCom_JPA" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,7 +99,7 @@
       <recent name="github.com.jailcomfranssa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RemovendoEntidadesReferenciadasTest">
+  <component name="RunManager" selected="JUnit.RelacionamentoManyToManyTest.verificarRelacionamento">
     <configuration name="AutoRelacionamentoTest.verificarRelacionamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-ecommerce" />
       <extension name="coverage">
@@ -125,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelacionamentoManyToOneTest.verificarRelacionamentoItemPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RelacionamentoManyToManyTest.verificarRelacionamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-ecommerce" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +125,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.relacionamentos.RelacionamentoManyToOneTest" />
-      <option name="METHOD_NAME" value="verificarRelacionamentoItemPedido" />
+      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.relacionamentos.RelacionamentoManyToManyTest" />
+      <option name="METHOD_NAME" value="verificarRelacionamento" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RelacionamentoManyToManyTest.verificarRelacionamento" />
         <item itemvalue="JUnit.RemovendoEntidadesReferenciadasTest" />
         <item itemvalue="JUnit.RemovendoEntidadesReferenciadasTest.removerEntidadeRelacionada" />
         <item itemvalue="JUnit.RelacionamentoOneToManyTest.verificarRelacionamento" />
         <item itemvalue="JUnit.AutoRelacionamentoTest.verificarRelacionamento" />
-        <item itemvalue="JUnit.RelacionamentoManyToOneTest.verificarRelacionamentoItemPedido" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +201,7 @@
       <workItem from="1674489070455" duration="11674000" />
       <workItem from="1674512480014" duration="8689000" />
       <workItem from="1674600595788" duration="8874000" />
-      <workItem from="1674745641977" duration="339000" />
+      <workItem from="1674745641977" duration="1930000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando projeto">
       <created>1674175268219</created>
@@ -401,14 +392,20 @@
       <option name="project" value="LOCAL" />
       <updated>1674521790839</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Mapeamento de relacionamentos">
+      <created>1674746140696</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1674746140696</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="iniciando projeto" />
     <MESSAGE value="add depedências no pom" />
     <MESSAGE value="criando mapeamento de Produto" />
     <MESSAGE value="criando configurações do banco de dados Mysql" />
@@ -433,6 +430,7 @@
     <MESSAGE value="criando caso de teste cliente" />
     <MESSAGE value="criando classe endereço de entrega e test" />
     <MESSAGE value="criando estrategia de geração de chave primaria nas entidades" />
-    <option name="LAST_COMMIT_MESSAGE" value="criando estrategia de geração de chave primaria nas entidades" />
+    <MESSAGE value="Mapeamento de relacionamentos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mapeamento de relacionamentos" />
   </component>
 </project>

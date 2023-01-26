@@ -5,3 +5,5 @@ insert into cliente (nome) values ('Fernando Medeiros');
 insert into cliente (nome) values ('Marcos Mariano');
 
 insert into pedido(cidade, estado, cliente_id) values ('JK','PP',1);
+
+insert into  categoria(id, nome) values  (1, 'Eletrônicos');
