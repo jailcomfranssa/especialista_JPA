@@ -44,6 +44,12 @@ public class Pedido {
     @Enumerated(EnumType.STRING)
     private StatusPedido status;
 
+    @OneToOne(mappedBy = "pedido")
+    private PagamentoCartao pagamentoCartao;
+
+    @OneToOne(mappedBy = "pedido")
+    private NotaFiscal notaFiscal;
+
     @Embedded
     private EnderecoEntregaPedido enderecoEntregaPedido;
 }
