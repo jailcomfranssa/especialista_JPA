@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="Mapeamento OneToOne">
+    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="atributos optional">
+      <change afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/conhecendoentitymanager/CallbacksTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Estoque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/NotaFiscal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/PagamentoCartao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/PagamentoCartao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/mapeamentobasico/MapeamentoObjetoEmbutidoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/mapeamentobasico/MapeamentoObjetoEmbutidoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/relacionamentos/RelacionamentoManyToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/relacionamentos/RelacionamentoManyToOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/relacionamentos/RelacionamentoOneToManyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/relacionamentos/RelacionamentoOneToManyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,23 @@
       <recent name="github.com.jailcomfranssa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RelacionamentoOneToOneTest.verificarRelacionamentoPedidoNotaFiscal">
+  <component name="RunManager" selected="JUnit.CallbacksTest.acionarCallbacks">
+    <configuration name="CallbacksTest.acionarCallbacks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.com.jailcomfranssa.conhecendoentitymanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.conhecendoentitymanager" />
+      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.conhecendoentitymanager.CallbacksTest" />
+      <option name="METHOD_NAME" value="acionarCallbacks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RelacionamentoManyToManyTest.verificarRelacionamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-ecommerce" />
       <extension name="coverage">
@@ -165,29 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemovendoEntidadesReferenciadasTest.removerEntidadeRelacionada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.com.jailcomfranssa.relacionamentos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.relacionamentos.RemovendoEntidadesReferenciadasTest" />
-      <option name="METHOD_NAME" value="removerEntidadeRelacionada" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CallbacksTest.acionarCallbacks" />
         <item itemvalue="JUnit.RelacionamentoOneToOneTest.verificarRelacionamentoPedidoNotaFiscal" />
         <item itemvalue="JUnit.RelacionamentoOneToOneTest.verificarRelacionamento" />
         <item itemvalue="JUnit.RelacionamentoManyToManyTest.verificarRelacionamento" />
         <item itemvalue="JUnit.RemovendoEntidadesReferenciadasTest" />
-        <item itemvalue="JUnit.RemovendoEntidadesReferenciadasTest.removerEntidadeRelacionada" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +202,8 @@
       <workItem from="1674489070455" duration="11674000" />
       <workItem from="1674512480014" duration="8689000" />
       <workItem from="1674600595788" duration="8874000" />
-      <workItem from="1674745641977" duration="6593000" />
+      <workItem from="1674745641977" duration="7544000" />
+      <workItem from="1674846393056" duration="3007000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando projeto">
       <created>1674175268219</created>
@@ -415,14 +415,20 @@
       <option name="project" value="LOCAL" />
       <updated>1674750458590</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="atributos optional">
+      <created>1674752822541</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1674752822541</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="criando configurações do banco de dados Mysql" />
     <MESSAGE value="criando classe entityManager" />
     <MESSAGE value="criando classe de teste" />
     <MESSAGE value="busca por identificador" />
@@ -447,6 +453,7 @@
     <MESSAGE value="Mapeamento de relacionamentos" />
     <MESSAGE value="Mapeamento ManyToMany" />
     <MESSAGE value="Mapeamento OneToOne" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mapeamento OneToOne" />
+    <MESSAGE value="atributos optional" />
+    <option name="LAST_COMMIT_MESSAGE" value="atributos optional" />
   </component>
 </project>
