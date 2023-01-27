@@ -1,5 +1,7 @@
 package github.com.jailcomfranssa.model.entities;
 
+import github.com.jailcomfranssa.listener.GenericoListener;
+import github.com.jailcomfranssa.listener.GerarNotaFiscalListener;
 import github.com.jailcomfranssa.model.EnderecoEntregaPedido;
 import github.com.jailcomfranssa.model.enums.StatusPedido;
 import lombok.EqualsAndHashCode;
@@ -15,6 +17,7 @@ import java.util.List;
 @Getter
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@EntityListeners({GerarNotaFiscalListener.class, GenericoListener.class})
 @Entity
 @Table(name = "pedido")
 public class Pedido {
@@ -56,6 +59,9 @@ public class Pedido {
     @Embedded
     private EnderecoEntregaPedido enderecoEntregaPedido;
 
+    public boolean isPago(){
+        return StatusPedido.PAGO.equals(status);
+    }
 //    @PrePersist
 //    @PreUpdate
     public void calcularToral(){
