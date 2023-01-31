@@ -7,3 +7,5 @@ insert into cliente (nome) values ('Marcos Mariano');
 insert into pedido(cidade, estado, cliente_id) values ('JK','PP',1);
 
 insert into  categoria(id, nome) values  (1, 'Eletrônicos');
+
+insert into item_pedido(pedido_id, produto_id, preco_produto, quantidade) values (1,1,5.0,2);
