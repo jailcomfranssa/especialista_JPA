@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="224d1c79-c950-455d-8634-e16034cce225" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/EntendendoJUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/dao/EventoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/EventoDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +49,25 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/SPRING-ESTUDO/AlgaWorks/Especialista-JPA/especialista_JPA/src/main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SPRING-ESTUDO\AlgaWorks\Especialista-JPA\especialista_JPA\src\main" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.EntendendoJUnitTest.testeVazio">
     <configuration name="EntendendoJUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="especialista_JPA" />
@@ -138,11 +149,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674003676140</updated>
-      <workItem from="1674003678541" duration="2458000" />
+      <workItem from="1674003678541" duration="3824000" />
+      <workItem from="1674171638674" duration="750000" />
+      <workItem from="1674173114556" duration="1482000" />
+      <workItem from="1676771476086" duration="716000" />
+      <workItem from="1676863032110" duration="3846000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
