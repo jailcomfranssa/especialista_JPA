@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="trabalhando com updatable e insertable false">
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/pk/ItemPedidoId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/mapeamentoavancado/ChaveCompostaTest.java" afterDir="false" />
+    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="criando classe endereço de entrega e test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/pk/ItemPedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/ItemPedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/banco-de-dados/dados-iniciais.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/relacionamentos/RelacionamentoManyToOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/relacionamentos/RelacionamentoManyToOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/mapeamentoavancado/ChaveCompostaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/mapeamentoavancado/ChaveCompostaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +94,7 @@
       <recent name="github.com.jailcomfranssa.model.entities" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="github.com.jailcomfranssa.model.pk" />
       <recent name="github.com.jailcomfranssa.relacionamentos" />
       <recent name="github.com.jailcomfranssa.model.entities" />
       <recent name="github.com.jailcomfranssa" />
@@ -132,17 +132,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelacionamentoManyToManyTest.verificarRelacionamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChaveCompostaTest.salvarItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.com.jailcomfranssa.relacionamentos.*" />
+          <option name="PATTERN" value="github.com.jailcomfranssa.mapeamentoavancado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.relacionamentos.RelacionamentoManyToManyTest" />
-      <option name="METHOD_NAME" value="verificarRelacionamento" />
+      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.mapeamentoavancado" />
+      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.mapeamentoavancado.ChaveCompostaTest" />
+      <option name="METHOD_NAME" value="salvarItem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,10 +183,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ChaveCompostaTest" />
+        <item itemvalue="JUnit.ChaveCompostaTest.salvarItem" />
         <item itemvalue="JUnit.CallbacksTest.acionarCallbacks" />
         <item itemvalue="JUnit.RelacionamentoOneToOneTest.verificarRelacionamentoPedidoNotaFiscal" />
         <item itemvalue="JUnit.RelacionamentoOneToOneTest.verificarRelacionamento" />
-        <item itemvalue="JUnit.RelacionamentoManyToManyTest.verificarRelacionamento" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +205,8 @@
       <workItem from="1674745641977" duration="7544000" />
       <workItem from="1674846393056" duration="5624000" />
       <workItem from="1675124664618" duration="7582000" />
+      <workItem from="1677001143953" duration="2422000" />
+      <workItem from="1677024978184" duration="7443000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando projeto">
       <created>1674175268219</created>
