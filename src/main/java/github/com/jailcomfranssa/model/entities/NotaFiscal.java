@@ -18,7 +18,9 @@ public class NotaFiscal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String xml;
+
+    @Lob
+    private byte[] xml;
     @Column(name = "data_emissao")
     private Date dataEmissao;
 
