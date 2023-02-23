@@ -32,6 +32,8 @@ public class Produto {
     private String nome;
     private String descricao;
     private BigDecimal preco;
+    @Lob
+    private byte[] imagem;
 
     @ManyToMany
     @JoinTable(name = "produto_categoria",
