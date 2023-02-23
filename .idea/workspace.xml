@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="criando coleções de tipo basico">
-      <change afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Atributo.java" afterDir="false" />
+    <list default="true" id="c319baf0-a421-46ed-b1d1-ed8ce3dc40b8" name="Changes" comment="mapeando coleções de objetos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/jailcomfranssa/model/entities/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/mapeamentoavancado/ElementCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/github/com/jailcomfranssa/mapeamentoavancado/ElementCollectionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,25 +68,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="github.com.jailcomfranssa.model.enums" />
@@ -100,7 +99,7 @@
       <recent name="github.com.jailcomfranssa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ElementCollectionTest">
+  <component name="RunManager" selected="JUnit.ElementCollectionTest.aplicarContato">
     <configuration name="CallbacksTest.acionarCallbacks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-ecommerce" />
       <extension name="coverage">
@@ -163,17 +162,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelacionamentoOneToOneTest.verificarRelacionamentoPedidoNotaFiscal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElementCollectionTest.aplicarContato" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="github.com.jailcomfranssa.relacionamentos.*" />
+          <option name="PATTERN" value="github.com.jailcomfranssa.mapeamentoavancado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.relacionamentos" />
-      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.relacionamentos.RelacionamentoOneToOneTest" />
-      <option name="METHOD_NAME" value="verificarRelacionamentoPedidoNotaFiscal" />
+      <option name="PACKAGE_NAME" value="github.com.jailcomfranssa.mapeamentoavancado" />
+      <option name="MAIN_CLASS_NAME" value="github.com.jailcomfranssa.mapeamentoavancado.ElementCollectionTest" />
+      <option name="METHOD_NAME" value="aplicarContato" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ElementCollectionTest.aplicarContato" />
         <item itemvalue="JUnit.ElementCollectionTest" />
         <item itemvalue="JUnit.ChaveCompostaTest" />
         <item itemvalue="JUnit.ChaveCompostaTest.salvarItem" />
         <item itemvalue="JUnit.CallbacksTest.acionarCallbacks" />
-        <item itemvalue="JUnit.RelacionamentoOneToOneTest.verificarRelacionamentoPedidoNotaFiscal" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +205,8 @@
       <workItem from="1675124664618" duration="7582000" />
       <workItem from="1677001143953" duration="2422000" />
       <workItem from="1677024978184" duration="7988000" />
-      <workItem from="1677115443374" duration="2135000" />
+      <workItem from="1677115443374" duration="2478000" />
+      <workItem from="1677165782763" duration="983000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando projeto">
       <created>1674175268219</created>
@@ -460,14 +460,20 @@
       <option name="project" value="LOCAL" />
       <updated>1677116946947</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="mapeando coleções de objetos">
+      <created>1677117938696</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1677117938696</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="inserindo no banco" />
     <MESSAGE value="removendo do banco" />
     <MESSAGE value="usando o metodo merge para atualizar" />
     <MESSAGE value="atualização sem o merge" />
@@ -492,6 +498,7 @@
     <MESSAGE value="trabalhando com updatable e insertable false" />
     <MESSAGE value="add @MapsId" />
     <MESSAGE value="criando coleções de tipo basico" />
-    <option name="LAST_COMMIT_MESSAGE" value="criando coleções de tipo basico" />
+    <MESSAGE value="mapeando coleções de objetos" />
+    <option name="LAST_COMMIT_MESSAGE" value="mapeando coleções de objetos" />
   </component>
 </project>
